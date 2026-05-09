@@ -1,7 +1,8 @@
 print("=== Learning Tracker ===")
 
 while True:
-    print("\n1. Add completed task")
+    print(f"\nTotal Completed Tasks: {len(tasks)}")
+    print("Completed Tasks:")
     print("2. View progress")
     print("3. Exit")
 
